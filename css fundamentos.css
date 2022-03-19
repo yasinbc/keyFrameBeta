@@ -1,0 +1,143 @@
+body{
+	background: yellow;
+}
+
+h1 {
+	text-align: center;
+	font-family: serif;
+}
+
+#div1{
+	text-align: center;
+	background: red;
+	margin: 5px;
+	padding: 5px;
+	width: 70%;
+	height: 10%;
+	margin-left: 50%;
+	margin-top: 10%;
+	transform: translate(-50%, -50%);
+	border: 1px solid black;
+	border-radius: 15px;
+}
+
+#div2{
+	text-align: center;
+	background: blue;
+	margin: 5px;
+	padding: 5px;
+	width: 70%;
+	height: 10%;
+	margin-left: 50%;
+	margin-top: 10%;
+	transform: translate(-50%, -50%);
+	border: 1px solid black;
+	border-radius: 15px;
+}
+
+#div3{
+	text-align: center;
+	background: green;
+	margin: 5px;
+	padding: 5px;
+	width: 70%;
+	height: 10%;
+	margin-left: 50%;
+	margin-top: 10%;
+	transform: translate(-50%, -50%);
+	border: 1px solid black;
+	border-radius: 15px;
+}
+
+#box1{
+	width: 400px;
+	height: 400px;
+	background: red;
+	align-items: center;
+	display: flex;
+	justify-content: center;
+	border-radius: 50%;
+
+}
+
+#box2{
+	width: 300px;
+	height: 300px;
+	background: blue;
+	align-items: center;
+	display: flex;
+	justify-content: center;
+	border-radius: 50%;
+}
+
+#box3{
+	width: 200px;
+	height: 200px;
+	background: green;
+	align-items: center;
+	display: flex;
+	justify-content: center;
+	border-radius: 50%;
+}
+
+#box4 {
+	width: 100px;
+	height: 100px;
+	background: yellow;
+	align-items: center;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	border-radius: 50%;
+}
+
+#box4:hover{
+	transform: translate(40px, 20px);
+	transition: 1s ease-in-out;
+	transition-timing-function: cubic-bezier(0,.98,1,-0.02);
+}
+
+#box3:hover{
+	transform: translate(40px, 20px);
+	transition: 1s ease-in-out;
+	transition-timing-function: cubic-bezier(0,.98,1,-0.02);
+}
+
+#box2:hover{
+	transform: translate(40px, 20px);
+	transition: 1s ease-in-out;
+	transition-timing-function: cubic-bezier(0,.98,1,-0.02);
+}
+
+#box1:hover{
+	transform: translate(40px, 20px);
+	transition: all 0.5s linear;
+}
+
+input{
+	text-align: center;
+	background: grey;
+	color: blue;
+	font-family: Arial;
+	border-radius: 50%;
+	border:none;
+}
+
+input:hover{
+	background: white;
+	color: red;
+	border-radius: 10px;
+	border:none;
+}
+
+.s1 #i1 [o="p1"] i{
+	font-family: Arial;
+	background: blue;
+	transform: translate(100px, 20px);
+}
+
+.s1 #i1 [o="p1"]{
+	font-family: Arial;
+	background: red;
+	transform: translate(70px, 20px);
+}
